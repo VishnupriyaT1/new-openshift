@@ -54,7 +54,7 @@ public class ServletServer {
                     .setDeploymentName("test.war")
                     .addServlets(
                             servlet("MessageServlet", MessageServlet.class)
-                                    .addInitParam("message", "Hello World ! My first openshift code is here!! Webhook is working from github 12")
+                                    .addInitParam("message", "Hello World ! My first openshift code is here!! Checking webhook on July 5th")
                                     .addMapping("/*"),
                             servlet("MyServlet", MessageServlet.class)
                                     .addInitParam("message", "MyServlet")
